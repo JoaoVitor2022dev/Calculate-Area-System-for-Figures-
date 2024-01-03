@@ -7,6 +7,6 @@ namespace ConsoleApp1.Model.Entities
     {
         public Color Color { get; set; }
 
-        public abstract double Area();
+        public abstract double Area(); 
     }
 }

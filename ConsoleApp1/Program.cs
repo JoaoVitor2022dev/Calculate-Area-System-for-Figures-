@@ -8,15 +8,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Shape s1 = new Circle(2.0, Color.White);
-            //{ Radius = 2.0, Color = Color.White };
-
-            Shape s2 = new Rectangle(3.5, 4.5, Color.White);
-
+            IShape s1 = new Circle(2.0, Color.White);
+            IShape s2 = new Rectangle(3.5, 4.5, Color.White);
 
             Console.WriteLine(s1);
             Console.WriteLine(s2);
 
+            Console.WriteLine(s2);
         }
     }
 }
