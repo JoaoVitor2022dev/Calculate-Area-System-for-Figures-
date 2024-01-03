@@ -4,7 +4,7 @@ using ConsoleApp1.Model.Enums;
 
 namespace ConsoleApp1.Model.Entities
 {
-     internal class Circle : Shape
+     internal class Circle : AbstractShape
     {
         public double Radius { get; set; }
         public Color Color { get; set; }
